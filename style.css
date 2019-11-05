@@ -20,10 +20,6 @@ header {
   padding: 10px;
 }
 
-/* .cover {
-  display: flex;
-} */
-
 #kitten {
   background-image: url(https://placekitten.com/200/138);
   height: 100%;
@@ -41,8 +37,71 @@ header {
   font-size: 2rem;
 }
 
-button {
+#products-button {
   width: 200px;
   height: 80px;
   font-size: 1.5rem;
+}
+
+.featured-products {
+  text-align: center; 
+}
+
+.special-ones {
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.mattress img {
+  width: 70%; 
+}
+
+.mattress {
+  text-align: center; 
+  width: 70%; 
+}
+
+.secondary-products {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.sleep-item img {
+  width: 200px; 
+}
+
+#products {
+  text-align: center; 
+}
+
+.the-casper-difference {
+  text-align: center;
+  background-color: navy;
+  color: white; 
+}
+
+.special-casper-facts {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.item img {
+  width: 400px;  
+}
+
+.casper-guarantee {
+  text-align: center;
+}
+
+.amenities {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.feature {
+  width: 33%
+}
+
+.feature img {
+  width: 200px; 
 }
