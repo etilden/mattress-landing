@@ -1,0 +1,48 @@
+* {
+  outline: 1px solid red;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right > div {
+  padding: 10px;
+}
+
+/* .cover {
+  display: flex;
+} */
+
+#kitten {
+  background-image: url(https://placekitten.com/200/138);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.cover-text {
+  text-align: center;
+  position: relative;
+  top: -500px;
+  z-index: 2;
+  color: white;
+  font-size: 2rem;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  font-size: 1.5rem;
+}
